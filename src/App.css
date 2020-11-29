@@ -64,3 +64,28 @@ height: 100%;
   padding: 8px;
 
 }
+.page-content{
+  /* The image used */
+  background-image: url("/src/components/Propic1.png");
+ 
+  
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#text{
+  position: absolute;
+  z-index: 100;
+  left: 10px;
+  top: 0;
+}
+
