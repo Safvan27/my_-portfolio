@@ -18,22 +18,22 @@ class LandingPage extends Component{
                             <p>REACT | REACTJS | JAVASCRIPTS | CSS | HTML | BOOTSTRAP | REACT BOOTSTRAP </p>
                             <div className="social-links">
                                 {/* Linkedin */}
-                                <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                <a href="https://www.google.com/" rel="noopener noreferrer" target ="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
 
                                  {/* Github */}
-                                  <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                  <a href="https://www.google.com/" rel="noopener noreferrer" target ="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
 
                                  {/* Facebook */}
-                                 <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                 <a href="https://www.google.com/" rel="noopener noreferrer" target ="_blank">
                                     <i className="fa fa-facebook-square" aria-hidden="true" />
                                 </a>
 
                                  {/* Instagram */}
-                                <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                <a href="https://www.google.com/" rel="noopener noreferrer" target ="_blank">
                                     <i className="fa fa-instagram" aria-hidden="true" />
                                 </a>
 
