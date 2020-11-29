@@ -1,9 +1,49 @@
 import React,{ Component } from 'react';
-  class LandingPage extends Component{
+import { Grid,Cell } from 'react-mdl'; 
+import Logo from './Propic1.png';
+class LandingPage extends Component{
       render(){
           return(
-              <div><h1>Landing page</h1></div>
-          )
+            <div style={{width: '100%', margin:'auto'}}>
+                <Grid className="Landing-grid">
+                    <Cell col={12}>
+                        <img 
+                        src={Logo}
+                        alt="avatar"
+                        className="avatar-img"
+                        />
+                        <div className="banner-text">
+                            <h1>Front End Developer</h1>
+                            <hr/>
+                            <p>REACT | REACTJS | JAVASCRIPTS | CSS | HTML | BOOTSTRAP | REACT BOOTSTRAP </p>
+                            <div className="social-links">
+                                {/* Linkedin */}
+                                <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                </a>
+
+                                 {/* Github */}
+                                  <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
+
+                                 {/* Facebook */}
+                                 <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                    <i className="fa fa-facebook-square" aria-hidden="true" />
+                                </a>
+
+                                 {/* Instagram */}
+                                <a href="https:google.com" rel="noopener noreferrer" target ="_blank">
+                                    <i className="fa fa-instagram" aria-hidden="true" />
+                                </a>
+
+                            </div>
+                        </div>
+                    </Cell>
+                </Grid>
+            </div>
+
+            )
       }
   }
 
