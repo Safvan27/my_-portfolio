@@ -1,10 +1,14 @@
 import React,{ Component } from 'react';
 import { Grid,Cell } from 'react-mdl'; 
 import Logo from './Propic1.png';
+
 class LandingPage extends Component{
       render(){
           return(
+           
             <div style={{width: '100%', margin:'auto'}}>
+                <div className="name"><h1>Hi ,I'm Safvan</h1><h4>“Chase your dreams .... but make sure you don't find shortcuts ...”
+                        <br/>― Sachin Tendulkar</h4></div>
                 <Grid className="Landing-grid">
                     <Cell col={12}>
                         <img 
@@ -13,7 +17,8 @@ class LandingPage extends Component{
                         className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Front End Developer</h1>
+                            
+                             <h2>A FRONT END DEVELOPER</h2>
                             <hr/>
                             <p>REACT | REACTJS | JAVASCRIPTS | CSS | HTML | BOOTSTRAP | REACT BOOTSTRAP </p>
                             <div className="social-links">

@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'></link>
 class App extends Component {
   render() {
     return (
@@ -26,9 +26,10 @@ class App extends Component {
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
+            <div className="page-content" >
             <div id="text">
             <Main/>
+            </div>
             </div>
         </Content>
     </Layout>

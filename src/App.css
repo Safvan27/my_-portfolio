@@ -1,44 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 .header-color{
-  background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(255, 255, 255) !important;
 
 }
-.Landing-grid{
-  background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.Landing-grid {
 text-align: center;
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+
 }
 .avatar-img{
   height: 250px;
-  padding-top: 5em;
+  margin-top: 5em;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  
+  /* margin-right: auto; */
+  border-radius: 15px 15px;
+  box-shadow: 4px 4px 8px ;
+  
+  margin-left: 75%;
+  
   
 }
+
 .banner-text{
   background-color: black;
-  opacity: 0.8;
-  width: 75%;
+  opacity: 0.7;
+  width: 80%;
   margin: auto;
+  margin-top: 0px;
   border-radius: 10px;
   text-align: center;
   
   
 }
-.banner-text h1{
-  font-size: 50px;
+.Landing-grid h1{
+  font-size: 40px;
   font-weight: bold;
   color: white;
   
   
+  
+}
+.banner-text h2{
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  
+  
+  
+  
+}
+.name h1{
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  left: 100%;
+ font-size: 5em;
+ 
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-family: 'Satisfy', cursive, monospace !important;
+  
+}
+.name h4{
+  color: rgb(0, 0, 0);
+  
+  text-align: center;
+  left: 20%;
+  font-size: 27px;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  position: fixed;
+  
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-family: 'Dancing Script', cursive, monospace !important;
   
 }
 .banner-text hr {
@@ -66,26 +107,32 @@ height: 100%;
 }
 .page-content{
   /* The image used */
-  background-image: url("/src/components/Propic1.png");
- 
-  
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
+  background-image: url("/src/components/background.jpg");
   height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
+  
+
+
 #text{
   position: absolute;
   z-index: 100;
-  left: 10px;
-  top: 0;
+ top: 0;
+  
 }
-
+.project-grid{
+  display: flex;
+  
+}
+.resumepage{
+  position: relative;;
+  left: 150%;
+}
+.mdl-tabs__tab-bar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.432) !important;
+}
