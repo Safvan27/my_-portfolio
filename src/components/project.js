@@ -10,7 +10,7 @@ class Project extends Component{
         if(this.state.activeTab === 0){
             return(
                 <div className="project-grid">
-                    <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -25,7 +25,7 @@ class Project extends Component{
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -40,7 +40,7 @@ class Project extends Component{
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -60,7 +60,7 @@ class Project extends Component{
       } else if (this.state.activeTab === 1){
         return(
             <div className="project-grid">
-                    <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                    <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -75,7 +75,7 @@ class Project extends Component{
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -90,7 +90,7 @@ class Project extends Component{
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -110,7 +110,7 @@ class Project extends Component{
       } else if (this.state.activeTab === 2){
             return(
                 <div className="project-grid">
-                <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+                <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -125,7 +125,7 @@ class Project extends Component{
                     <IconButton name="share" />
                 </CardMenu>
             </Card>
-            <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+            <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -140,7 +140,7 @@ class Project extends Component{
                     <IconButton name="share" />
                 </CardMenu>
             </Card>
-            <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+            <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -160,7 +160,7 @@ class Project extends Component{
       } else if(this.state.activeTab === 3){
           return(
             <div className="project-grid">
-            <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+            <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -175,7 +175,7 @@ class Project extends Component{
                 <IconButton name="share" />
             </CardMenu>
         </Card>
-        <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+        <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -190,7 +190,7 @@ class Project extends Component{
                 <IconButton name="share" />
             </CardMenu>
         </Card>
-        <Card shadow={5} style={{width: '400px', margin: 'auto'}}>
+        <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
