@@ -1,8 +1,9 @@
 import React,{ Component } from 'react';
+import { Grid , Cell} from 'react-mdl';
   class Aboutme extends Component{
       render(){
           return(
-              <div><h1>About me page</h1></div>
+              <Grid></Grid>
           )
       }
   }

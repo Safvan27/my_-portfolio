@@ -9,7 +9,7 @@
 .Landing-grid {
 text-align: center;
 position: fixed;
-top: 0;
+bottom: -50px;
 left: 0;
 width: 100%;
 height: 100%;
@@ -58,11 +58,23 @@ height: 100%;
   
   
 }
+.mdl-navigation__link:hover {
+    
+  -webkit-transform: scale(1.2) !important;
+    -ms-transform: scale(1.2) !important;
+    transform: scale(1.2) !important;
+    
+}
+
+
+.mdl-navigation__link:active{
+  color: rgb(48, 48, 48) !important;
+}
 .name h1{
   color: rgb(255, 255, 255);
-  position: relative;
-  text-align: center;
-  left: 100%;
+  
+  margin-left: 380px;
+  
  font-size: 5em;
  
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
@@ -116,23 +128,58 @@ height: 100%;
   background-size: cover;
   
 }
-  
+.mdl-layout__header {
+  background-color: rgb(115 115 115) !important;
+  }  
 
 
-#text{
-  position: absolute;
-  z-index: 100;
- top: 0;
-  
-}
+
 .project-grid{
   display: flex;
   
 }
-.resumepage{
-  position: relative;;
-  left: 150%;
-}
+
 .mdl-tabs__tab-bar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.432) !important;
+}
+.contact-body{
+  margin: auto;
+  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 20px;
+  height: 530px;
+  background: rgba(46, 46, 46, 0.267);
+  
+  
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow:5px 5px 6px rgb(0, 0, 0);
+}
+.contact-grid p{
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow:2px 2px 5px rgb(0, 0, 0);
+}
+/* .contact-grid hr{
+  border-top:3px solid rgb(0, 0, 0) ;
+  width: 50%;
+  margin: auto;
+} */
+
+.contact-list i{
+  font-size: 60px;
+  padding-right: 5rem;
 }

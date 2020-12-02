@@ -5,7 +5,7 @@ import Logo from './Propic1.png';
 class LandingPage extends Component{
       render(){
           return(
-           
+           <Grid>
             <div style={{width: '100%', margin:'auto'}}>
                 <div className="name"><h1>Hi ,I'm Safvan</h1><h4>“Chase your dreams .... but make sure you don't find shortcuts ...”
                         <br/>― Sachin Tendulkar</h4></div>
@@ -47,7 +47,7 @@ class LandingPage extends Component{
                     </Cell>
                 </Grid>
             </div>
-
+            </Grid>
             )
       }
   }
