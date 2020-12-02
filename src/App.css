@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+a{
+  font-family: 'Orbitron';
+}
 .header-color{
   color: rgb(255, 255, 255) !important;
 
@@ -187,7 +191,29 @@ height: 100%;
 
 .resume-right-col{
   background-color: #2727278a;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
   padding: 2em;
   
 }
+.resume-right-col h2{
+font-family: 'Turret Road';
+}
+.resume-left-grid{
+   padding-left: 5px;
+}
+.resume-left-grid h5{
+  font-family: 'Michroma';
+}
+.resume-left-grid p{
+  font-family: 'Oxygen','sans-serif';
+  font-weight: bold;
+}
+.resume-right-col h4{
+  font-family: 'Michroma';
+
+  }
+  .resume-right-col p{
+    font-family: 'Oxygen','sans-serif';
+    
+  } 
+  

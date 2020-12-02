@@ -11,7 +11,7 @@ class Project extends Component{
             return(
                 <div className="project-grid">
                     <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project 1</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -26,7 +26,7 @@ class Project extends Component{
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project 2</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -41,7 +41,7 @@ class Project extends Component{
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project 3</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -61,7 +61,7 @@ class Project extends Component{
         return(
             <div className="project-grid">
                     <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>React 1</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -76,7 +76,7 @@ class Project extends Component{
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>React 2</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -91,7 +91,7 @@ class Project extends Component{
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>React 3</CardTitle>
                     <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -111,7 +111,7 @@ class Project extends Component{
             return(
                 <div className="project-grid">
                 <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Angular 1</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -126,7 +126,7 @@ class Project extends Component{
                 </CardMenu>
             </Card>
             <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Angular 2</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -141,7 +141,7 @@ class Project extends Component{
                 </CardMenu>
             </Card>
             <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Angular 3</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -161,7 +161,7 @@ class Project extends Component{
           return(
             <div className="project-grid">
             <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Other 1</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -176,7 +176,7 @@ class Project extends Component{
             </CardMenu>
         </Card>
         <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Other 2</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -191,7 +191,7 @@ class Project extends Component{
             </CardMenu>
         </Card>
         <Card shadow={5} style={{width: '400px', margin: '1px 10px 1px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Other 3</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
