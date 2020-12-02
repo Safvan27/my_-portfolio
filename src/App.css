@@ -183,3 +183,11 @@ height: 100%;
   font-size: 60px;
   padding-right: 5rem;
 }
+/* resume page*/
+
+.resume-right-col{
+  background-color: #2727278a;
+  color: antiquewhite;
+  padding: 2em;
+  
+}
